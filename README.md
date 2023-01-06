@@ -108,7 +108,7 @@ Using draw.io a data model (see below and also in main notebook), that meets the
 
 <br>
 
-<img src="./imgs/air_travel_data_modeling.drawio.png" alt="data model" width="640" />
+<img src="./imgs/air_travel_data_modeling.drawio (2).png" alt="data model" width="640" />
 
 <br><br>
 
