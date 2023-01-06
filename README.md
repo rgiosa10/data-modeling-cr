@@ -9,7 +9,6 @@
 ## Technologies Used
 
 * Google BigQuery
-* Google Looker Studio
 * Python
 * Jupyter Notebooks
 * Pandas
