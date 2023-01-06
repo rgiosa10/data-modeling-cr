@@ -148,18 +148,18 @@ A ETL pipeline created that loads the dimensions and facts from the source file,
 
 ## Setup/Installation Requirements
 
-* Go to https://github.com/rgiosa10/bigquery-cloud-cr.git to find the specific repository for this website.
+* Go to https://github.com/rgiosa10/data-modeling-cr.git to find the specific repository for this website.
 * Then open your terminal. I recommend going to your Desktop directory:
     ```bash
     cd Desktop
     ```
 * Then clone the repository by inputting: 
   ```bash
-  git clone https://github.com/rgiosa10/bigquery-cloud-cr.git
+  git clone https://github.com/rgiosa10/data-modeling-cr.git
   ```
 * Go to the new directory or open the directory folder on your desktop:
   ```bash
-  cd bigquery-cloud-cr
+  cd data-modeling-cr
   ```
 * Once in the directory you will need to set up a virtual environment in your terminal:
   ```bash
