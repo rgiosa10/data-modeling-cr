@@ -2,7 +2,7 @@
 
 #### By Ruben Giosa
 
-#### This repo includes an exercise for data modeling, loading and normalization.
+#### This repo includes an exercise for data modeling, loading, normalization and performing a merge using a staging table.
 
 <br>
 
@@ -89,6 +89,7 @@ A ticket contains a few different entities:
 In this exercise, the below are performed:
 1. Creation of a data model to store our tables; separating entities into dimensions and facts
 1. Development of an ETL pipeline normalizing the source file into our facts and dimensions
+1. Adds a task that updates (merges) tickets in our fact table leveraging a stating table
 
 <br><br>
 
@@ -142,6 +143,18 @@ A ETL pipeline created that loads the dimensions and facts from the source file,
 - Links to _airlines_ and _airports_ dimensions by their IATA codes. 
 - Links to the _passengers_ dimension by its surrogate key by performing a looking up to the _passengers_ dimension
 - Loads all the tickets
+
+<br><br>
+
+## Exercise 3: Merging
+
+Take a look at the source file: [`data/air_travel/ticket_updates/ticket_updates.csv`](./data/air_travel/ticket_updates/ticket_updates.csv)
+
+This file contains some updates to our tickets. Either the _price_, _seat number_, or the _status_ has been updated for these tickets.
+
+Here an ETL task is created that:
+1. Loads the updates into an staging table
+1. Uses the SQL merge statement to update the _tickets_ fact
 
 <br><br>
 
